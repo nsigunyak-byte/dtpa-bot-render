@@ -1,27 +1,6 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
 venv/
-env/
-*.egg-info/
-dist/
-build/
-
-# Secrets - ВАЖНО! Не загружать токены
 .env
-*.key
-*.pem
-
-# Logs
-*.log
+__pycache__/
+*.pyc
 data/*.txt
-data/feedback_log.txt
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
+render.yaml
